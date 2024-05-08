@@ -1,0 +1,24 @@
+{
+  "name": "code-kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "target": "esnext",
+  "module": "commonjs",
+  "repository": "https://github.com/DemystData/code-kata.git",
+  "author": "Seetaram Yadav",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/todoCli.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nock": "^13.5.4"
+  }
+}
